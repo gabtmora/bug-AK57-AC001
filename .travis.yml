@@ -20,5 +20,5 @@ script:
 
 notifications:
   email:
-    - diegocarrera2000@gmail.com
+    - gabtmora23@gmail.com
   irc: "irc.freenode.org#yourfavouriteroomfortravis"
