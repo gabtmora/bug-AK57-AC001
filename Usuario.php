@@ -1,5 +1,5 @@
 <?php
-include_once('pages/modelo/usuario/UsuarioCollector.php');
+
 class Usuario extends PHPUnit_Framework_TestCase
 {
     /**
