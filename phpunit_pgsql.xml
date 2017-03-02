@@ -3,13 +3,13 @@
 <phpunit bootstrap="Tests/bootstrap.php" colors="true">
    
   <php>
-        <var name="db_dsn" value="mysql:dbname=dcs5r4uj8p9su5;host=ec2-54-235-173-161.compute-1.amazonaws.com"/>
+        <var name="db_dsn" value="pgsql:dbname=dcs5r4uj8p9su5;host=ec2-54-235-173-161.compute-1.amazonaws.com"/>
         <var name="db_username" value="afdryhizzhanik"/>
         <var name="db_password" value="7e57768e3d008db2326a5a85e2f419ce4f342943230fd4eb0fd6b9e75e042748"/>
     </php>
 
     <testsuites>
-        <testsuite name="Hello World Test catering">
+        <testsuite name="Test catering">
             <directory>./Tests/</directory>
         </testsuite>
     </testsuites>

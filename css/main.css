@@ -1,0 +1,165 @@
+@charset "utf-8";
+/* CSS Document */
+html{
+	width:100%;
+	height:100%;
+	margin:0px;
+}
+body{
+	width:100%;
+	height:100%;
+	margin:0px;
+	font-family: 'Open Sans', sans-serif;
+}
+.contenedorPrincipal{
+	width:97%;
+	height:100%;
+}
+a{
+	color:skyblue;
+	text-decoration:none;
+}
+/*FORMATO DE FUENTE*/
+/*ESTILO*/
+.letra-negrita{
+	font-weight:bold;
+}
+/*TAMAÑO*/
+.letraTamaño-12{
+	font-size:12pt;
+}
+.letraTamaño-14{
+	font-size:12pt;
+}
+.letraTamaño-16{
+	font-size:16pt;
+}
+/*COLOR*/
+.letraColorBlanco{
+	color:white;
+}
+.letraColorAzul{
+	color:#3123D9;
+}
+.letraColorGris{
+	color:#8C8C8C;
+}
+.boton{
+	color:#FFFFFF;
+	background-color:#4267CC;
+	font-weight:bold;
+	border:solid 1px #9E9E9E;
+}
+.boton:hover{
+	background-color:#93D8ED;
+}
+/*COMPORTAMIENTO DE DIVS*/
+.border-box{
+	box-sizing:border-box;
+}
+.alinear-horizontal{
+	vertical-align:top;
+	display:inline-block;
+}
+.centrar-div{
+	margin:0px auto;
+}
+/*FORMATO DE TEXTO*/
+.centrar-texto{
+	text-align:center;
+}  
+/*TIPO DE BORDES*/
+.borde-5{
+	border-radius:5px;
+}
+.borde-10{
+	border-radius:10px;
+}
+/*TIPO  DE CURSORES*/
+.cursorPointer{
+	cursor:pointer;
+}
+/*Fin botones*/
+/*FORMATOD E MENSAJES*/
+.correcto,.error,.mensaje{
+	background-color:#BCF0C9;
+	color:#2F8819;
+	border:solid 5px #2F8819;
+	margin:0px auto;
+	width:70%;
+	padding:0px;
+	font-weight:bold;
+	text-align:center;
+	border-radius:5px;
+}
+.error{
+	background-color:#F8898B;
+	color:#BD2E30;
+	border:solid 5px #BD2E30; 
+}
+.mensaje{
+	background-color:#A3D4E3;
+	color:#3967A4;
+	border:solid 5px #3967A4; 
+}
+/*Menu*/
+.barra{
+	width:100%;
+	padding:2%;
+	background-color:#000000;
+	color:white;
+	margin-bottom:1%;
+}
+.barraBienvenido{
+	font-size:14pt;
+}
+.barraSession{
+	font-size:12pt;
+	float:right;
+}
+/*LINKS PARA BOLVER*/
+.linkVolver{
+	margin-top:2%;
+	margin-bottom:1%;
+}
+/*Tabla de resultados*/
+.contenedorTablaResultados,.tituloTabla{
+	width:80%;
+}
+.tituloTabla{
+	font-size:16pt;
+}
+.tabla{
+	width:100%;
+	margin-top:2%;
+	border-collapse:collapse;
+}
+.tabla th{
+	background-color:#5482E0;
+	color:white;
+}
+.tabla td{
+	border:solid 1px #9A9A9A;
+	color:#2E2E2E;
+}
+/*Titulos de pagina*/
+.titulo{
+	width:80%;
+	padding:1%;
+	background-color:#5575F3;
+}
+.bordeGris1px{
+	border:solid 1px #AFAFAF;
+}
+/*Area no disponible*/
+.areaNoDisponible{
+	width:50%;
+	margin-top:10%;
+	padding:2%;
+	border:solid 1px #E74113;
+	font-weight:bold;
+	font-size:16pt;
+	background-color:#F49970;
+	color:#E74113;
+}
+

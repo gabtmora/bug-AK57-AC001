@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+.contenedorForms{
+	width:80%;
+	margin-top:2%;
+	padding:1%;
+	border:solid 1px #6D8DF3;
+}
+.ventasFormBuscar{
+	width:600px;
+	height:28px;
+	margin-left:1.5%;
+}
+.inputBusqueda{
+	width:60%;
+	height:100%;
+}
+.inputBuscar{
+	width:20%;
+	height:100%;
+	border:solid 1px;
+}
+.botonCarrito{
+	background-color:#4267CC;
+	border:solid 1px ;
+	width:50px;
+	height:28px;
+	padding:2px;
+	margin-left:14%;
+}
+.botonRegistrarVenta:hover,.inputBuscar:hover,.botonCarrito:hover{
+	background-color:#A8C1F4;
+}
+.agregar{
+	border:solid 1px black;
+	width:70px;
+	background-color:#F88A36;
+	color:white;
+}
+.agregar:hover{
+	background-color:#FBB169;
+}
+.formRegistrarVenta{
+	width:200px;
+	height:28px;
+	margin-left:0.5%;
+}
+.botonRegistrarVenta{
+	width:100%;
+	height:100%;
+	padding:2px;
+	border:solid 1px white;
+}
+.ticket{
+	width:40%;
+}
+.ticket table{
+	width:100%;
+	margin-top:2%;
+	margin-bottom:2%;
+}
+
