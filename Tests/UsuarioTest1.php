@@ -4,11 +4,13 @@ include_once(__DIR__.'/../pages/modelo/usuario/Usuario.php');
 class UsuarioTest1 extends PHPUnit_Framework_TestCase
 {
 
-   var $u = new Usuario();
+   var $u ;
 
     public function setUp()
     {
-	$this->u->setId_usuario(12);
+		$this->u = new Usuario();
+
+	    $this->u->setId_usuario(12);
 
     }
 
