@@ -1,6 +1,6 @@
 <?php
 
-include_once('../pages/modelo/usuario/Usuario.php');
+include_once(__DIR__.'/../pages/modelo/usuario/Usuario.php');
 class UsuarioTest1 extends PHPUnit_Framework_TestCase
 {
 
