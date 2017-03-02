@@ -4,7 +4,7 @@ include_once(__DIR__.'/../pages/modelo/usuario/Usuario.php');
 class UsuarioTest1 extends PHPUnit_Framework_TestCase
 {
 
-    private $user;
+    private Usuario $user;
 
     public function setUp()
     {
