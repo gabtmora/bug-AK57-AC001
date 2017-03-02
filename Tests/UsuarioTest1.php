@@ -18,7 +18,7 @@ class UsuarioTest1 extends PHPUnit_Framework_TestCase
 
     public function tearDown()
     {
-        $this->user->destroy()
+        unset($this->user);
     }
 
     public function testUsuario()
