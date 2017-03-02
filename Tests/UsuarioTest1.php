@@ -8,9 +8,10 @@ class UsuarioTest1 extends PHPUnit_Framework_TestCase
 
     public function setUp()
     {
-		$this->u = new Usuario();
+	    $this->u = new Usuario();
 
 	    $this->u->setId_usuario(12);
+	    $this->u->setRol('A');
 
     }
 
@@ -24,7 +25,10 @@ class UsuarioTest1 extends PHPUnit_Framework_TestCase
 	$this->assertEquals(0,preg_match('/[^0-9]/',$this->u->getId_usuario() ));
     }
 
-
+    public function testRol()
+    {
+	$this->assertEquals('A',$this->u->getRol() );
+    }
 
 
 }
