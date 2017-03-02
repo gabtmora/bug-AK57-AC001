@@ -24,7 +24,7 @@ class UsuarioTest1 extends PHPUnit_Framework_TestCase
     public function testUsuario()
     {
 	
-        $this->assertTrue(preg_match('/[^0-9]/',$user->id_usuario));
+        $this->assertTrue(preg_match('/[^0-9]/',$user->getId_usuario() ));
     }
 
 
