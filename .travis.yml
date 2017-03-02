@@ -16,6 +16,7 @@ before_script: true
 
 script: 
 - phpunit Test.php
+- phpunit Usuario.php
 
 
 notifications:
