@@ -1,6 +1,6 @@
 <?php
 
-class Usuario
+class Usuario extends PHPUnit_Framework_TestCase
 {
     /**
      * @var PDO
